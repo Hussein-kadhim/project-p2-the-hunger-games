@@ -106,7 +106,7 @@
 
 /* Hero section */
 .hero-section {
-  background: url("./website-images/hero-section-image.jpg") center/cover
+  background: url("../website-images/hero-section-image.jpg") center/cover
     no-repeat;
   height: 110vh;
   display: flex;
