@@ -334,6 +334,12 @@ p.movie-subtitle {
   font-family: var(--font-family-base);
 }
 
+@media (max-width: 600px) {
+  .title-text {
+    font-size: 2.5rem;
+  }
+}
+
 @media (max-width: 768px) {
   .navbar {
     position: fixed;
