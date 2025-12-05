@@ -14,7 +14,7 @@
   --font-family-base: "Cinzel", serif;
 }
 
-.container {
+.navbar-container {
   max-width: 1200px;
   width: 90%;
   margin: 0 auto;
@@ -184,11 +184,14 @@
 /* Content */
 
 .content-info {
-  display: flex;
   gap: 3rem;
-  max-width: 100%;
-  margin: 0 auto;
   flex-wrap: wrap;
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 10rem 0;
 }
 
 .movie-info__poster img {
@@ -244,6 +247,83 @@ p.movie-subtitle {
   white-space: nowrap;
   font-size: 1rem;
   color: var(--color-text);
+}
+
+/* Contact form */
+
+.contact-us {
+  background-color: var(--color-dark);
+  padding: 6rem 0;
+}
+
+.heading-2 {
+  font-size: 3rem;
+  color: var(--color-primary);
+  margin: 20px 0;
+}
+
+.contact-us-container {
+  display: flex;
+  padding: 1rem 0;
+  flex-direction: column;
+  width: 50%;
+  justify-self: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  color: var(--color-white);
+  margin: 10px 0;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  background-color: transparent;
+  color: var(--color-white);
+  border: 1px solid var(--color-primary);
+  border-radius: 5px;
+  font-family: var(--font-family-base);
+  font-size: 1em;
+  width: 100%;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: var(--color-white);
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.btn-submit {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 15px 0;
+  transition: 0.3s ease-in-out;
+}
+
+.btn-submit:hover {
+  background-color: transparent;
+  border: 1px solid var(--color-primary);
+  color: var(--color-white);
 }
 
 @media (max-width: 768px) {
@@ -310,5 +390,14 @@ p.movie-subtitle {
     display: flex;
     gap: 1.5rem 3rem;
     flex-direction: column;
+  }
+
+  .contact-us-container {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .form-group label {
+    font-size: 0.8em;
   }
 }
