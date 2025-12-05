@@ -326,6 +326,14 @@ p.movie-subtitle {
   color: var(--color-white);
 }
 
+.footer.footer {
+  color: var(--color-black);
+  text-align: center;
+  padding: 0.5rem;
+  margin: 1rem;
+  font-family: var(--font-family-base);
+}
+
 @media (max-width: 768px) {
   .navbar {
     position: fixed;
