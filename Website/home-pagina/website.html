@@ -18,7 +18,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="navbar-container">
         <div class="logo-wrapper">
           <a href="/Website/home-pagina/website.html">
             <img
@@ -57,7 +57,7 @@
               <a class="nav-link" href="/Media/galerij/galerij.html">Media</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/faq/faq-pagina/faq-pagina.html">FAQ</a>
+              <a class="nav-link" href="/faq/faq.html">FAQ</a>
             </li>
           </ul>
         </nav>
@@ -130,6 +130,33 @@
       </div>
       </div>
     </section>
+   <section class="contact-us">
+    <div class="contact-us-container">
+        <h2 class="heading-2">Contact Us</h2>
+        
+        <form class="contact-form" action="https://formspree.io/f/xblnkkej" method="POST">
+            
+            <div class="form-group">
+                <label for="name">Naam*</label>
+                <input type="text" id="name" name="name" placeholder="SCHRIJF JE NAAM OP" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" placeholder="SCHRIJF JE EMAIL OP" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Bericht*</label>
+                <textarea id="message" name="message" rows="5" placeholder="SCHRIJF ONS EEN BERICHT" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn-submit">Stuur ons een bericht</button>
+        </form>
+    </div>
+</section>
+       <footer class="footer">geamaakt door Hussein en Ayssar</footer>
+
     </main>
 
     <script src="./website.js"></script>
