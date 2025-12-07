@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="faq.css" />
+    <title>The Hunger Games</title>
+</head>
+<body>
+        <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+ 
+        <div class="logo-wrapper">
+          <a href="/Website/home-pagina/website.html">
+            <img
+              class="logo"
+              src="./faq-images/the-hunger-games-logo.png"
+              alt="The Hunger Games logo"
+            />
+          </a>
+        </div>
+ 
+        <div class="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+ 
+        <nav class="navbar">
+          <div class="nav-header">
+            <div class="close-menu">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+          </div>
+ 
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="/Website/home-pagina/website.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#informatie">Informatie</a></li>
+            <li class="nav-item"><a class="nav-link" href="/Media/galerij/galerij.html">Media</a></li>
+            <li class="nav-item"><a class="nav-link" href="/faq/faq.html">FAQ</a></li>
+          </ul>
+        </nav>
+        <div class="overlay"></div>
+                </header>
+ 
+        <main class="main">
+            <section class="faq-section" id="faq">
+                <h1 class="section-title">Veelgestelde Vragen (FAQ)</h1>
+                <br>
+                <div class="faq-list">
+                <div class="faq-item">
+                <h2 class="faq-question">Wat is The Hunger Games?</h2>
+                <p class="faq-answer">Een dystopische filmserie over jongeren die strijden om te overleven in een gevaarlijke competitie, gebaseerd op de boeken van Suzanne Collins.</p>
+                </div>
+                <div class="faq-item">
+                <h2 class="faq-question">Wie spelen erin mee?</h2>
+                <p class="faq-answer">Jennifer Lawrence, Josh Hutcherson, Liam Hemsworth, Woody Harrelson, Elizabeth Banks en Donald Sutherland.</p>
+                </div>
+                <div class="faq-item">
+                <h2 class="faq-question">Waar gaat het verhaal over?</h2>
+                <p class="faq-answer">Katniss Everdeen neemt de plek van haar zus in in de dodelijke Hunger Games en vecht samen met Peeta voor haar leven.</p>
+                </div>
+                <div class="faq-item">
+                <h2 class="faq-question">Welke thema’s komen aan bod?</h2>
+                <p class="faq-answer">Overleven, moed, opstand, vriendschap en sociale ongelijkheid.</p>
+                </div>
+                <div class="faq-item">
+                <h2 class="faq-question">Hoeveel films zijn er?</h2>
+                <p class="faq-answer">Vier: The Hunger Games, Catching Fire, Mockingjay – Part 1 en Mockingjay – Part 2.</p>
+                </div>
+                <div class="faq-item">
+                <h2 class="faq-question">Voor wie is het geschikt?</h2>
+                <p class="faq-answer">Tieners en volwassenen; vanwege geweld en intense scènes minder geschikt voor jonge kinderen.</p>
+                </div>
+                </div>
+                <div class="faq-formulier">
+    <div class="faq-formulier-container">
+ 
+        <h2 class="faq-heading">Stel uw vraag</h2>
+       
+        <form class="faq-form" action="https://formspree.io/f/movglopq" method="POST">
+ 
+            <div class="faq-group">
+                <label for="name">Naam*</label>
+                <input type="text" id="name" name="name" placeholder="UW VOLLEDIGE NAAM" required>
+            </div>
+           
+            <div class="faq-group">
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" placeholder="SCHRIJF JE EMAIL OP" required>
+            </div>
+ 
+            <div class="faq-group">
+                <label for="subject">Onderwerp *</label>
+                <input type="text" id="subject" name="subject" placeholder="WAAR GAAT UW VRAAG OVER?" required>
+            </div>
+           
+            <div class="faq-group">
+                <label for="message">Uw vraag *</label>
+                <textarea id="message" name="message" rows="5" placeholder="BESCHRIJF UW VRAAG ZO DUIDELIJK MOGELIJK..." required></textarea>
+            </div>
+           
+            <button type="submit" class="faq-submit">Verstuur de vraag</button>
+        </form>
+    </div>
+</div>
+     <footer class="footer">geamaakt door Hussein en Ayssar</footer>
+                </section>
+              </main>
+      <script src="./faq.js"></script>
+</body>
+</html>
+ 
