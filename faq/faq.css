@@ -1,9 +1,9 @@
-css * {
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
- 
+
 :root {
   --color-primary: #c7a24a;
   --color-secondary: #d94a2b;
@@ -13,7 +13,7 @@ css * {
   --color-black: #000;
   --font-family-base: "Cinzel", serif;
 }
- 
+
 .container {
   max-width: 1200px;
   width: 90%;
@@ -23,11 +23,11 @@ css * {
   align-items: center;
   padding: 1rem 0;
 }
- 
+
 .logo {
   width: 15%;
 }
- 
+
 .navbar {
   display: flex;
   position: static;
@@ -36,48 +36,48 @@ css * {
   background: none;
   padding: 0;
 }
- 
+
 .navbar-nav {
   display: flex;
   flex-direction: row;
   list-style: none;
   gap: 1rem;
 }
- 
+
 .nav-item {
   padding: 0 0.5rem;
 }
- 
+
 .nav-link {
   text-decoration: none;
   color: var(--color-black);
   font-family: var(--font-family-base);
 }
- 
+
 .nav-header {
   width: 100%;
   display: flex;
   justify-content: flex-end;
   margin-bottom: 2rem;
 }
- 
+
 /* Hamburger */
- 
+
 .hamburger {
   display: none;
   cursor: pointer;
   font-size: 1.5rem;
   color: var(--color-black);
 }
- 
+
 /* Close button */
- 
+
 .close-menu {
   display: none;
 }
- 
+
 /* Overlay */
- 
+
 .overlay {
   position: fixed;
   top: 0;
@@ -88,7 +88,7 @@ css * {
   display: none;
   z-index: 9;
 }
- 
+
 @media (max-width: 768px) {
   .navbar {
     position: fixed;
@@ -102,23 +102,23 @@ css * {
     z-index: 10;
     transition: right 0.4s ease;
   }
- 
+
   .navbar.active {
     right: 0;
   }
- 
+
   .navbar-nav {
     flex-direction: column;
     gap: 1.5rem;
   }
- 
+
   .hamburger {
     display: block;
     font-size: 1.5rem;
   }
- 
+
   /*Mobile Close button */
- 
+
   .close-menu {
     font-size: 1.8rem;
     color: var(--color-black);
@@ -126,14 +126,14 @@ css * {
     cursor: pointer;
   }
 }
- 
+
 .faq-section {
   padding-top: 4rem;
   background-color: var(--color-dark);
   color: var(--color-white);
   font-family: var(--font-family-base);
 }
- 
+
 h1 {
   color: var(--color-primary);
   text-align: center;
@@ -141,35 +141,35 @@ h1 {
   font-size: 3rem;
   font-family: var(--font-family-base);
 }
- 
+
 h2 {
   color: var(--color-primary);
 }
- 
+
 .faq-list {
   padding: 2rem;
   margin: 1rem;
   border-left: 3px solid var(--color-primary);
   place-self: center;
 }
- 
+
 .faq-item {
   margin: 2rem 0;
 }
- 
+
 /* FAQ Formulier */
- 
+
 .faq-formulier {
   background-color: var(--color-dark);
   padding: 6rem 0;
 }
- 
+
 .faq-heading {
   font-size: 2.5rem;
   color: var(--color-primary);
   margin: 20px 0;
 }
- 
+
 .faq-formulier-container {
   display: flex;
   padding: 1rem 0;
@@ -177,24 +177,24 @@ h2 {
   width: 50%;
   justify-self: center;
 }
- 
+
 .faq-form {
   display: flex;
   flex-direction: column;
 }
- 
+
 .faq-group {
   display: flex;
   flex-direction: column;
 }
- 
+
 .faq-group label {
   color: var(--color-white);
   margin: 10px 0;
   font-size: 1em;
   font-weight: bold;
 }
- 
+
 .faq-group input,
 .faq-group textarea {
   padding: 10px;
@@ -206,14 +206,14 @@ h2 {
   font-size: 1em;
   width: 100%;
 }
- 
+
 .faq-group input::placeholder,
 .faq-group textarea::placeholder {
   color: var(--color-white);
   font-size: 12px;
   text-transform: uppercase;
 }
- 
+
 .faq-submit {
   background-color: var(--color-primary);
   color: var(--color-white);
@@ -225,27 +225,27 @@ h2 {
   margin: 15px 0;
   transition: 0.3s ease-in-out;
 }
- 
+
 .faq-submit:hover {
   background-color: transparent;
   border: 1px solid var(--color-primary);
   color: var(--color-white);
 }
- 
-.footer {
+
+.footer.footer {
   color: var(--color-black);
-  background-color: var(--color-white);
   text-align: center;
   padding: 0.5rem;
+  margin: 1rem;
   font-family: var(--font-family-base);
 }
- 
+
 @media (max-width: 768px) {
   .faq-formulier-container {
     padding: 1rem;
     width: 100%;
   }
- 
+
   .faq-group label {
     font-size: 0.8em;
   }
