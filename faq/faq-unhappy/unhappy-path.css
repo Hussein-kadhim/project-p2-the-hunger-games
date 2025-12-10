@@ -1,0 +1,33 @@
+:root {
+  --color-primary: #c7a24a;
+  --color-secondary: #d94a2b;
+  --color-dark: #101216;
+  --color-brown: #6a4a3c;
+  --color-white: #fff;
+  --color-black: #000;
+  --font-family-base: "Cinzel", serif;
+}
+
+body {
+  font-family: var(--font-family-base);
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  color: var(--color-primary);
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+p {
+  color: var(--color-brown);
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
