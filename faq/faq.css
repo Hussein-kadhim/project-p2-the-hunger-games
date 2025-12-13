@@ -219,6 +219,19 @@ h2 {
   text-transform: uppercase;
 }
 
+.form-message {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.form-message.success {
+  color: #4caf50;
+}
+
+.form-message.error {
+  color: #ff4d4d;
+}
+
 .faq-submit {
   background-color: var(--color-primary);
   color: var(--color-white);
