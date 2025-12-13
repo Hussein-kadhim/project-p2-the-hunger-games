@@ -52,8 +52,13 @@
   text-decoration: none;
   color: var(--color-black);
   font-family: var(--font-family-base);
+  transition: 0.4s ease-out;
 }
 
+.nav-link:hover {
+  color: var(--color-primary);
+  transition: 0.4s ease-in-out;
+}
 .nav-header {
   width: 100%;
   display: flex;
@@ -212,6 +217,19 @@ h2 {
   color: var(--color-white);
   font-size: 12px;
   text-transform: uppercase;
+}
+
+.form-message {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.form-message.success {
+  color: #4caf50;
+}
+
+.form-message.error {
+  color: #ff4d4d;
 }
 
 .faq-submit {
