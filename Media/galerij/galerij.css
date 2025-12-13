@@ -131,13 +131,14 @@
 
 .main {
   background-color: var(--color-dark);
-  padding: 6rem 0;
+  padding-bottom: 6rem;
 }
 
 .main-title {
   font-size: 3rem;
   color: var(--color-primary);
   margin: 20px 0;
+  padding-top: 6rem;
 }
 
 p {
@@ -195,6 +196,32 @@ p {
 .media-text i {
   margin-right: 6px;
   color: #d4af37;
+}
+
+.downloaden-submit {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 15px 30px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 15px 0;
+  transition: 0.3s ease-in-out;
+}
+
+.downloaden-submit:hover {
+  background-color: transparent;
+  border: 1px solid var(--color-primary);
+  color: var(--color-white);
+}
+
+#download-message {
+  color: red;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: center;
 }
 
 .footer {
